@@ -35,31 +35,31 @@
 	],
 	"splash": [
 		{
-			"src": "images/icons/splash-640x1136.png"
+			"src": "icons/splash-640x1136.png"
 		},
 		{
-			"src": "images/icons/splash-750x1334.png"
+			"src": "icons/splash-750x1334.png"
 		},
 		{
-			"src": "images/icons/splash-828x1792.png"
+			"src": "icons/splash-828x1792.png"
 		},
 		{
-			"src": "images/icons/splash-1125x2436.png"
+			"src": "icons/splash-1125x2436.png"
 		},
 		{
-			"src": "images/icons/splash-1242x2208.png"
+			"src": "icons/splash-1242x2208.png"
 		},
 		{
-			"src": "images/icons/splash-1536x2048.png"
+			"src": "icons/splash-1536x2048.png"
 		},
 		{
-			"src": "images/icons/splash-1668x2224.png"
+			"src": "icons/splash-1668x2224.png"
 		},
 		{
-			"src": "images/icons/splash-1668x2388.png"
+			"src": "icons/splash-1668x2388.png"
 		},
 		{
-			"src": "images/icons/splash-2048x2732.png"
+			"src": "icons/splash-2048x2732.png"
 		}
 	],
 	"start_url": "/",

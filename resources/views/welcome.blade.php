@@ -20,7 +20,7 @@
         <!-- Register service worker -->
 		<script src="register-worker.js"></script>
         <!-- check connected -->
-        <script src="notifconnected.js"></script>
+        <script type="text/javascript" src="notifconnected.js"></script>
 
         <script id="sap-ui-bootstrap"
             src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
@@ -48,18 +48,6 @@
 		</script>
     </head>
     <body class="antialiased bg-gray-100">
-        <div class="toast" style="position: absolute; top: 200px; right: 25px;">
-            <div class="toast-header">
-                <i class="bi bi-wifi"></i>&nbsp;&nbsp;&nbsp;
-                <strong class="mr-auto"><span class="text-success">You're online now</span></strong>
-                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="toast-body">
-                Hi! Internet is connected.
-            </div>
-        </div>
         <main role="main" class="px-4 py-8 flex justify-center">
             <div class="w-full lg:w-8/12">
                 <h1 class="my-10 text-5xl font-extrabold text-center leading-none tracking-tight">
@@ -78,3 +66,15 @@
         @livewireScripts
     </body>
 </html>
+<div class="toast" style="position: absolute; top: 200px; right: 25px;">
+    <div class="toast-header">
+        <i class="bi bi-wifi"></i>&nbsp;&nbsp;&nbsp;
+        <strong class="mr-auto"><span class="text-success">You're online now</span></strong>
+        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="toast-body">
+        Hi! Internet is connected.
+    </div>
+</div>
